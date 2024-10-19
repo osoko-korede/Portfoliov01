@@ -1,8 +1,13 @@
+import FeaturedProject from "../Components/FeaturedProject"
 import Hero from "../Components/Hero"
 
 const Home = () => {
   return (
-    <Hero/>
+    <div>
+      <Hero/>
+      <FeaturedProject/>
+    </div>
+    
   )
 }
 

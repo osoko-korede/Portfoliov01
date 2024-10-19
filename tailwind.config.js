@@ -1,3 +1,6 @@
+
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,5 +10,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+  ],
+
 }
