@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Lexend:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root{
-  font-family: "Outfit", sans-serif;
+  font-family: "DM Sans", "Outfit", sans-serif;
+}
+
+
+@layer utilities {
+  .green {
+    @apply text-[#004F43];
+  }
+  .green-bg {
+    @apply bg-[#004F43];
+  }
+  .gray {
+    @apply text-[#1A1A1A];
+  }
+
 }

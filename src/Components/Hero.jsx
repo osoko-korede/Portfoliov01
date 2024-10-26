@@ -1,34 +1,45 @@
 import React from 'react'
 import { FaDribbble, FaGithub, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa6'
+import { ReactTyped } from "react-typed";
+
+
 
 const Hero = () => {
   return (
     <div className='max-w-[1240px] m-auto mt-28 h-full flex flex-col'>
         <div className='w-full flex justify-center'>
-            <h1 className=' pb-4 text-9xl text-center font-semibold tracking-tight bg-gradient-to-r from-gray-900 via-gray-600 to-gray-900 inline-block text-transparent bg-clip-text'>
-                Hi, I'm Korede. <br/> a Designer.
+            <h1 className='p-5 pb-4 text-7xl md:text-9xl text-center font-semibold tracking-tight green inline-block text-transparent bg-clip-text'>
+                Hi, I'm Korede. <br/> <ReactTyped
+                strings={[
+                    "a Designer",
+                    "a Developer",
+                ]}
+                typeSpeed={40}
+                backSpeed={50}
+                loop
+                />
             </h1>
         </div>
         <div>
-            <p className="text-gray-950 text-center max-w-[50%] m-auto mt-10">
-                I am an experienced graphics, UI/UX, and front-end designer that is very passionate about making an impact. I am an experienced graphics, UI/UX, and front-end designer that is very passionate about making an impact. 
+            <p className="gray text-center w-[80%] lg:max-w-[80%] m-auto mt-10">
+            Hello, I’m Korede, a front-end developer with a passion for creating impactful digital experiences. With a background in design, I bring a unique blend of creativity and technical skill to every project, ensuring that each interface is both visually engaging and highly functional. My journey into front-end development has been driven by a commitment to merging aesthetics with code to build user-centered, responsive websites. Whether it’s through crafting seamless interactions or designing accessible and intuitive layouts, I aim to elevate the digital presence of every project I work on. 
             </p>
         </div>
-        <div className='flex justify-between mt-10 max-w-[30%] mx-auto'>
+        <div className='flex justify-between mt-10 mx-auto green text-2xl '>
             <a href="https://github.com/osoko-korede" rel='noopener' target='_blank'>
-                <FaGithub size={30} className='mx-5 text-gray-900'/>
+                <FaGithub className='mx-5 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110'/>
             </a>
             <a href="https://wa.me/2348104432617?text=Hi,%20I%20just%20went%20through%20your%20portfolio%20my%20name%20is" rel='noopener' target='_blank'>
-                <FaWhatsapp size={30} className='mx-5 text-gray-900'/>
+                <FaWhatsapp className='mx-5 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 '/>
             </a>
             <a href="https://instagram.com/notkorede?utm_medium=copy_link" rel='noopener' target='_blank'>
-                <FaInstagram size={30} className='mx-5 text-gray-900'/>
+                <FaInstagram className='mx-5 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 '/>
             </a>
             <a href="https://twitter.com/not_korede/" rel='noopener' target='_blank'>
-                <FaTwitter size={30} className='mx-5 text-gray-900'/>
+                <FaTwitter className='mx-5 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 '/>
             </a>
             <a href="https://dribbble.com/notkorede" rel='noopener' target='_blank'>
-                <FaDribbble size={30} className='mx-5 text-gray-900'/>
+                <FaDribbble className='mx-5 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 '/>
             </a>
         </div>
     </div>
