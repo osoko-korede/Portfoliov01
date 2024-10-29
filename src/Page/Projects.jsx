@@ -20,7 +20,7 @@ const Projects = () => {
             <NavLink to="/Fitness">
                 <div className= 'w-full mt-9'>
                     <BounceCard className="col-span-12 md:col-span-6 bg-[#E4E5E0]">
-                        <CardTitle>Next.js Website</CardTitle>
+                        <CardTitle>Next.Js Website</CardTitle>
                         <div className="absolute bottom-0 left-4 right-4 top-24 translate-y-8 rounded-t-2xl transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg] mockup-window border border-[#004F43]">
                             <div className="flex justify-center px-4">
                                 <img src={fitness} alt="fitness website screenshot"/>
@@ -37,7 +37,7 @@ const Projects = () => {
             <NavLink to="/charger">
                 <div className= 'w-full mt-9'>
                     <BounceCard className="col-span-12 md:col-span-6 bg-[#E4E5E0]">
-                        <CardTitle>React.js Website</CardTitle>
+                        <CardTitle>React Website</CardTitle>
                         <div className="absolute bottom-0 left-4 right-4 top-24 translate-y-8 rounded-t-2xl transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg] mockup-window border border-[#004F43]">
                             <div className="flex justify-center px-4">
                                 <img src={charger} alt="Charger website screenshot"/>
