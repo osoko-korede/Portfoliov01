@@ -20,14 +20,14 @@ const Projects = () => {
             <NavLink to="/Fitness">
                 <div className= 'w-full mt-9'>
                     <BounceCard className="col-span-12 md:col-span-6 bg-[#E4E5E0]">
-                        <CardTitle>Next.Js Website</CardTitle>
+                        <CardTitle>Next.js Website</CardTitle>
                         <div className="absolute bottom-0 left-4 right-4 top-24 translate-y-8 rounded-t-2xl transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg] mockup-window border border-[#004F43]">
                             <div className="flex justify-center px-4">
                                 <img src={fitness} alt="fitness website screenshot"/>
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Next.js</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>React</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Tailwind CSS</p>
@@ -44,7 +44,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>React</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Vite</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Tailwind CSS</p>
@@ -61,7 +61,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>React</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Vite</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>UseState</p>
@@ -79,7 +79,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>React</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Vite</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>API</p>
@@ -97,7 +97,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Wordpress</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Elementor</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>SEO</p>
@@ -114,7 +114,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>React</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Vite</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>API</p>
@@ -151,7 +151,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Wordpress</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Elementor</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>SEO</p>
@@ -168,7 +168,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </BounceCard>
-                    <div className="flex mt-4 gap-2">
+                    <div className="flex mt-4 gap-2 flex-wrap">
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Wordpress</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>Elementor</p>
                         <p className='green bg-[#E4EAA2] rounded-full px-3 py-2'>SEO</p>
