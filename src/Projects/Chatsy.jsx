@@ -15,7 +15,7 @@ const Chatsy = () => {
               </div>
               <div>
                 <h2 className='text-xl font-semibold'>Tech Stack</h2>
-                <div className="flex mt-4 gap-4">
+                <div className="flex mt-4 gap-4 flex-wrap">
                     <p className='green bg-[#E4EAA2] rounded-full px-3 py-1'>React</p>
                     <p className='green bg-[#E4EAA2] rounded-full px-3 py-1'>Firebase DB</p>
                     <p className='green bg-[#E4EAA2] rounded-full px-3 py-1'>Firebase Auth</p>
