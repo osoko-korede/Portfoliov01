@@ -1,4 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { useParams } from 'react-router-dom';
+
 import { ReactLenis } from "lenis/dist/lenis-react"
 import Navbar from "./Components/Navbar"
 import Home from "./Page/Home"
@@ -6,26 +8,20 @@ import About from "./Page/About"
 import Contact from "./Page/Contact"
 import NoPage from "./Page/NoPage"
 import Projects from "./Page/Projects"
-import Footer from "./Components/Footer"
-import AfricaTradeAccess from "./Projects/AfricaTradeAccess"
-import Charger from "./Projects/Charger"
-import Chatsy from "./Projects/Chatsy"
-import Fitness from "./Projects/Fitness"
-import FokesConsult from "./Projects/FokesConsult"
-import FokesProperty from "./Projects/FokesProperty"
-import ImageSearch from "./Projects/ImageSearch"
-import ToDo from "./Projects/ToDo"
-import WeatherApp from "./Projects/WeatherApp"
+import Footer from "./components/Footer"
+import projectData from "./constants/projectData"
+import ProjectDetail from "./components/ProjectDetail"
+
 
 
 const App = () => {
   return (
-    <div className="bg-[#F5F6F1]">
+    <div className="bg-[#FFFFFF]">
       <ReactLenis
         root
         options={{
           // Learn more -> https://github.com/darkroomengineering/lenis?tab=readme-ov-file#instance-settings
-          lerp: 1,
+          lerp: 0.05,
             infinite: false,
             syncTouch: true,
         }}
@@ -38,15 +34,7 @@ const App = () => {
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/projects" element={<Projects/>}/>
-            <Route path="/africa-trade-access" element={<AfricaTradeAccess/>}/>
-            <Route path="/charger" element={<Charger/>}/>
-            <Route path="/chatsy" element={<Chatsy/>}/>
-            <Route path="/fitness" element={<Fitness/>}/>
-            <Route path="/fokes-consult" element={<FokesConsult/>}/>
-            <Route path="/fokes-property" element={<FokesProperty/>}/>
-            <Route path="/image-search" element={<ImageSearch/>}/>
-            <Route path="/todo" element={<ToDo/>}/>
-            <Route path="/weather-app" element={<WeatherApp/>}/>
+            <Route path="/project/:projectId" element={<ProjectDetailWrapper />} />
             <Route path="*" element={<NoPage/>}/>
           </Routes>
           <Footer/>
@@ -55,5 +43,11 @@ const App = () => {
     </div>
   )
 }
+
+const ProjectDetailWrapper = () => {
+  const { projectId } = useParams();
+  const project = projectData.find(p => p.id === projectId);
+  return project ? <ProjectDetail {...project} /> : <div className="flex  justify-center w-full h-full m-auto items-center my-40"><p className=" text-8xl green">Project not found</p></div>;
+};
 
 export default App

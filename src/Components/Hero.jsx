@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
         <div>
             <p className="gray text-center w-[80%] lg:max-w-[80%] m-auto mt-10">
-            Hello, I’m Korede, a front-end developer with a passion for creating impactful digital experiences. With a background in design, I bring a unique blend of creativity and technical skill to every project, ensuring that each interface is both visually engaging and highly functional. My journey into front-end development has been driven by a commitment to merging aesthetics with code to build user-centered, responsive websites. Whether it’s through crafting seamless interactions or designing accessible and intuitive layouts, I aim to elevate the digital presence of every project I work on. 
+            Hello, I’m Korede, a designer with a passion for creating impactful digital experiences. After years of honing my design skills, I bring a unique blend of creativity and technical skill to every project, ensuring that each project is both visually engaging and highly functional. My journey into front-end development has been driven by a commitment to merging aesthetics with code to build user-centered, responsive websites. Whether it’s through crafting seamless interactions or designing accessible and intuitive layouts, I aim to elevate the digital presence of every project I work on. 
             </p>
         </div>
         <div className='flex justify-between mt-10 mx-auto green text-2xl '>
