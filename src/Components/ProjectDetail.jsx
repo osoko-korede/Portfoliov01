@@ -44,9 +44,13 @@ const ProjectDetail = ({ title, description, image, year, externalLink, external
 
             </div>
 
-            <ul className='grid gap-10 lg:gap-20 mt-40'>
+            <ul className="grid gap-10 lg:gap-20 mt-40">
                 {photoSet.map((photo, index) => (
-                <li key={index}><img src={photo} alt={`${title} screenshot`} className='rounded-lg'/></li>
+                    photo ? (
+                    <li key={index}>
+                        <img src={photo} alt={`${title} screenshot`} className="rounded-lg" />
+                    </li>
+                    ) : null
                 ))}
             </ul>
 

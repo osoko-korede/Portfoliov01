@@ -3,6 +3,8 @@ import { useState } from "react"
 
 import { AiOutlineClose } from "react-icons/ai"
 import { BiMenuAltRight } from "react-icons/bi"
+import { MdOutlineDragHandle } from "react-icons/md";
+
 import { div } from 'framer-motion/client'
 
 const Navbar = () => {
@@ -17,13 +19,15 @@ const Navbar = () => {
   return (
     <div className='sticky z-30 top-0'>
       <div className='max-w-[90%]  m-auto flex items-center justify-between z-30 py-5 '>
-      <h1 className='green'>Osoko Korede</h1>
+      <NavLink to="/">
+        <h1 className='green'>Osoko Korede</h1>
+      </NavLink>
 
       <div className=''>
 
         <div className=" flex flex-col justify-end z-50">
             <button className="text-3xl text-white bg-black p-4 rounded-full z-50" onClick={toggleNavbar}>
-                {mobileDrawerOpen ? <AiOutlineClose /> : < BiMenuAltRight/>}
+                {mobileDrawerOpen ? <AiOutlineClose /> : < MdOutlineDragHandle/>}
             </button>
         </div>
       </div>

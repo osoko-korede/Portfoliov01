@@ -9,7 +9,13 @@ import todo from '../assets/To-Do.png'
 import weather from '../assets/Weather-App.png'
 import evolve01 from '../assets/EvolveAI/01.png'
 import hami06 from '../assets/Hami/06.png'
-import pledge01 from '../assets/Pledge/01.png'
+import pledge26 from '../assets/Pledge/26.avif'
+import ignite01 from '../assets/Ignite/01.avif'
+import fokes01 from '../assets/fokes/01.avif'
+import softswapp01 from '../assets/Softswapp/01.avif'
+import eshop01 from '../assets/eshop/01.webp'
+import bh01 from '../assets/burning-heart/01.png'
+
 
 
 
@@ -166,10 +172,66 @@ export const categories = [
               "Banner Ad Design",
               "Social Media Post",
             ],
-            featured: true,
+            featured: false,
             comingSoon: false,
             id: "hami"
           },   
+          {  
+            name: "Ignite Career Initiative",
+            image: ignite01,
+            alt: "ignite",
+            stack: [
+              "Volunteer",
+              "Social Media Post",
+            ],
+            featured: false,
+            comingSoon: false,
+            id: "ignite"
+          },     
+          {  
+            name: "Softswapp",
+            image: softswapp01,
+            alt: "softswapp",
+            stack: [
+              "Social Media Post",
+            ],
+            featured: false,
+            comingSoon: false,
+            id: "softswapp"
+          },     
+          {  
+            name: "Burning Heart",
+            image: bh01,
+            alt: "Burning Heart",
+            stack: [
+              "Logo Design",
+            ],
+            featured: false,
+            comingSoon: false,
+            id: "burning-hearts"
+          },     
+          {  
+            name: "Eshop SMS",
+            image: eshop01,
+            alt: "E-shop",
+            stack: [
+              "Social Media Post",
+            ],
+            featured: false,
+            comingSoon: false,
+            id: "eshop"
+          },        
+          {  
+            name: "Fokes",
+            image: fokes01,
+            alt: "fokes",
+            stack: [
+              "Social Media Post",
+            ],
+            featured: false,
+            comingSoon: false,
+            id: "fokes"
+          },         
       ]
     },
     {
@@ -177,7 +239,7 @@ export const categories = [
       projects: [
           {  
             name: "Pledge",
-            image: pledge01,
+            image: pledge26,
             alt: "Pledge Case Study",
             stack: [
               "Case Study",

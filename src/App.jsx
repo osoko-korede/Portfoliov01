@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 
 import { ReactLenis } from "lenis/dist/lenis-react"
 import Navbar from "./Components/Navbar"
+import ScrollToTop from "./Components/ScrollToTop"
 import Home from "./Page/Home"
 import About from "./Page/About"
 import Contact from "./Page/Contact"
@@ -27,6 +28,7 @@ const App = () => {
         }}
       >
         <BrowserRouter>
+          <ScrollToTop/>
           <Navbar/>
           <Routes>
             <Route index element={<Home/>}/>

@@ -12,10 +12,10 @@
 
 @layer utilities {
   .green {
-    @apply text-[#004F43];
+    @apply text-[#000000];
   }
   .green-bg {
-    @apply bg-[#004F43];
+    @apply bg-gray-400;
   }
   .gray {
     @apply text-[#1A1A1A];

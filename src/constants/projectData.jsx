@@ -55,6 +55,46 @@ import pledge22 from '../assets/Pledge/22.png'
 import pledge23 from '../assets/Pledge/23.png'
 import pledge24 from '../assets/Pledge/24.png'
 import pledge25 from '../assets/Pledge/25.png'
+import pledge26 from '../assets/Pledge/26.avif'
+
+
+
+import ignite01 from '../assets/Ignite/01.avif'
+import ignite02 from '../assets/Ignite/02.avif'
+import ignite03 from '../assets/Ignite/03.avif'
+import ignite04 from '../assets/Ignite/04.avif'
+import ignite05 from '../assets/Ignite/05.avif'
+import ignite06 from '../assets/Ignite/06.avif'
+import ignite07 from '../assets/Ignite/07.avif'
+import ignite08 from '../assets/Ignite/08.avif'
+
+
+import softswapp01 from '../assets/Softswapp/01.avif'
+import softswapp02 from '../assets/Softswapp/02.avif'
+import softswapp03 from '../assets/Softswapp/03.avif'
+import softswapp04 from '../assets/Softswapp/04.avif'
+import softswapp05 from '../assets/Softswapp/05.avif'
+import softswapp06 from '../assets/Softswapp/06.avif'
+import softswapp07 from '../assets/Softswapp/07.avif'
+
+
+import bh01 from '../assets/burning-heart/01.png'
+import bh02 from '../assets/burning-heart/02.png'
+import bh03 from '../assets/burning-heart/03.png'
+import bh04 from '../assets/burning-heart/04.png'
+import bh05 from '../assets/burning-heart/05.png'
+
+
+import eshop01 from '../assets/eshop/01.webp'
+import eshop02 from '../assets/eshop/02.webp'
+import eshop03 from '../assets/eshop/03.webp'
+
+
+import fokes01 from '../assets/fokes/01.avif'
+import fokes02 from '../assets/fokes/02.avif'
+import fokes03 from '../assets/fokes/03.avif'
+import fokes04 from '../assets/fokes/04.avif'
+import fokes05 from '../assets/fokes/05.avif'
 
 
 
@@ -186,6 +226,61 @@ import pledge25 from '../assets/Pledge/25.png'
       externalLinkDescription: "",
       photoSet: [hami02, hami03, hami04, hami05]
     },
+    {
+      id: 'ignite',
+      title: 'Ignite Career Initiative',
+      image: ignite01,
+      description: 'Ignite Initiative is a non-governmental organization with the dire purpose of proactively empowering young people with admirable and lofty entrepreneurial ideas by providing a veritable platform to actualize their ideas with sustainable results and critically engaging stakeholders across endeavors with emphasis on generating ideas vis-a-viz government policies and regulation leading to a robust and inclusive growth for.',
+      techStack: ['Volunteer, ', 'Social Media Post'],
+      year: "2022",
+      externalLink: "https://igniteinitiative.org/",
+      externalLinkDescription: "Visit Live Website",
+      photoSet: [ignite02, ignite03, ignite04, ignite05, ignite06, ignite07, ignite08]
+    },
+    {
+      id: 'softswapp',
+      title: 'Softswapp',
+      image: softswapp01,
+      description: 'Softswapp is an organization that helps you make your remmitance problems as easy and soft as possible and they also educate in regards to digital currencies and cryptocurrencies.',
+      techStack: ['Social Media Post'],
+      year: "2022",
+      externalLink: "https://www.instagram.com/softswapphq/",
+      externalLinkDescription: "Visit Instagram Page",
+      photoSet: [softswapp02, softswapp03, softswapp04, softswapp05, softswapp06, softswapp07]
+    },
+    {
+      id: 'burning-hearts',
+      title: 'Burning Hearts',
+      image: bh01,
+      description: 'Burning Heart is a contemporary christain fellowship.',
+      techStack: ['Logo Design'],
+      year: "2024",
+      externalLink: "#",
+      externalLinkDescription: "",
+      photoSet: [bh02, bh03, bh04, bh05]
+    },
+    {
+      id: 'eshop',
+      title: 'EshopSMS',
+      image: eshop01,
+      description: 'Eshopsms is the cheapest and yet most Efficient BULK SMS Gateway in Nigeria.',
+      techStack: ['Social Media Post'],
+      year: "2024",
+      externalLink: "https://eshopsms.com/",
+      externalLinkDescription: "Visit Live Website",
+      photoSet: [eshop02, eshop03]
+    },
+    {
+      id: 'fokes',
+      title: 'Fokes Consult',
+      image: fokes01,
+      description: 'Fokes Consult is a consulting firm that specializes in helping businesses grow and innovate through branding, marketing, and HR consulting services.',
+      techStack: ['Social Media Post'],
+      year: "2024",
+      externalLink: "https://fokesconsult.com/",
+      externalLinkDescription: "Visit Live Website",
+      photoSet: [fokes02, fokes03, fokes04, fokes05]
+    },
 
 
 
@@ -193,7 +288,7 @@ import pledge25 from '../assets/Pledge/25.png'
     {
       id: 'pledge',
       title: 'Pledge',
-      image: pledge01,
+      image: pledge26,
       description: 'Pledge is a crowdfunding app created with the aim of helping those in need. View full Case Study on My Behance.',
       techStack: ['Product Design,', 'UI/UX'],
       year: "2024",

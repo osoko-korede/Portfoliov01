@@ -8,7 +8,7 @@ import { categories } from "../constants/index.."
 const Projects = () => {
   return (
     <div className='max-w-[1240px] m-auto mt-40 h-full flex flex-col p-4'>
-        <h1 className='text-7xl text-green-900 text-center font-semibold flex flex-row'>Selected Works</h1>
+        <h1 className='text-7xl text-gray-950 text-center font-semibold flex flex-row'>Selected Works</h1>
         
     <div className="flex w-full justify-center pt-24">
       <div className="w-full">
@@ -17,7 +17,7 @@ const Projects = () => {
             {categories.map(({ name }) => (
               <Tab
                 key={name}
-                className="rounded-full py-1 px-3 text-sm/2 green md:font-semibold focus:outline-none data-[selected]:green-bg data-[selected]:text-white data-[hover]:bg-green-900/10 data-[selected]:data-[hover]:bg-green-900/20 data-[selected]:data-[hover]:green data-[focus]:outline-1 data-[focus]:outline-green-500"
+                className="rounded-full py-1 px-3 text-sm/2 green md:font-semibold focus:outline-none data-[selected]:green-bg data-[selected]:text-white data-[hover]:bg-gray-900/10 data-[selected]:data-[hover]:bg-gray-900/20 data-[selected]:data-[hover]:green data-[focus]:outline-1 data-[focus]:outline-gray-300"
               >
                 {name}
               </Tab>
@@ -35,7 +35,7 @@ const Projects = () => {
                       <h1 className='text-3xl green font-semibold mt-4'>{project.name}</h1>
                       <ul className="flex mt-4 gap-2 flex-wrap">
                           {project.stack.map((stack, index) => (
-                              <li key={index} className="green bg-[#E4EAA2] rounded-full px-3 py-1 text-sm">
+                              <li key={index} className="green bg-gray-200 rounded-full px-3 py-1 text-sm">
                                   <span>{stack}</span>
                               </li>
                           ))}
