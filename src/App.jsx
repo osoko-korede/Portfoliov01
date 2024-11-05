@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 import { ReactLenis } from "lenis/dist/lenis-react"
 import Navbar from "./Components/Navbar"
-import ScrollToTop from "./Components/ScrollToTop"
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./Page/Home"
 import About from "./Page/About"
 import Contact from "./Page/Contact"
