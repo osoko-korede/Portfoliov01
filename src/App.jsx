@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { useParams } from 'react-router-dom';
-
 import { ReactLenis } from "lenis/dist/lenis-react"
-import Navbar from "./Components/Navbar"
+import Navbar from "./components/Navbar"
 import Home from "./Page/Home"
 import About from "./Page/About"
 import Contact from "./Page/Contact"
 import NoPage from "./Page/NoPage"
 import Projects from "./Page/Projects"
 import Footer from "./components/Footer"
+import ScrollToTop from "./components/ScrollToTop";
 import projectData from "./constants/projectData"
 import ProjectDetail from "./components/ProjectDetail"
 
@@ -27,6 +27,7 @@ const App = () => {
         }}
       >
         <BrowserRouter>
+          <ScrollToTop/>
           <Navbar/>
           <Routes>
             <Route index element={<Home/>}/>

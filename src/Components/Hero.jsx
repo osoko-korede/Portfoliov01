@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaDribbble, FaGithub, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa6'
+// import { FaDribbble, FaGithub, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa6'
 import { ReactTyped } from "react-typed";
 
 
