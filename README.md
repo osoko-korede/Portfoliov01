@@ -2,6 +2,9 @@
 
 This project is a portfolio website. Built using React and Vite, it is designed to provide a fast and responsive user experience.
 
+<img width="1680" alt="Screenshot 2024-11-06 at 7 05 21 AM" src="https://github.com/user-attachments/assets/6d20fadb-c35c-4f6b-bb38-383a866fb91f">
+
+
 ## Features
 
 - **Clean and Minimal Layout**: The design of this website is clean and minimal making the information standout.
