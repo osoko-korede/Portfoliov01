@@ -56,14 +56,14 @@ const Contact = () => {
 
     return (
         <div className='max-w-[1240px] m-auto mt-20 h-full flex flex-col px-10'>
-            <h1 className='text-7xl text-gray-950 text-center font-semibold flex flex-row'>Get in Touch</h1>
+            <h1 className='text-7xl text-gray-950 text-center font-semibold flex flex-row '>Get in Touch</h1>
             <div className='py-12'>
                 <div className='flex md:flex-row flex-col gap-8'>
                     <div className='md:w-2/3'>
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                                 <div>
-                                    <label htmlFor="name" className="text-base font-medium text-gray-900">Your name</label>
+                                    <label htmlFor="name" className="text-base font-medium text-gray-900 hidden">Your name</label>
                                     <div className="mt-2.5 relative">
                                         <input 
                                             type="text" 
@@ -77,7 +77,7 @@ const Contact = () => {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="email" className="text-base font-medium text-gray-900">Email address</label>
+                                    <label htmlFor="email" className="text-base font-medium text-gray-900 hidden">Email address</label>
                                     <div className="mt-2.5 relative">
                                         <input 
                                             type="email" 
@@ -91,7 +91,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className="sm:col-span-2">
-                                    <label htmlFor="message" className="text-base font-medium text-gray-900">Message</label>
+                                    <label htmlFor="message" className="text-base font-medium text-gray-900 hidden">Message</label>
                                     <div className="mt-2.5 relative">
                                         <textarea 
                                             name="message" 
@@ -134,11 +134,11 @@ const Contact = () => {
             {/* Modal for success message */}
             {isSubmitted && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col justify-center">
-                        <h2 className="text-base sm:text-xl font-Semibold text text-center">Thank you for contacting me, <br /> I'd get back to you as soon as possible!</h2>
+                    <div className="bg-white p-12 rounded-md shadow-lg flex flex-col justify-center items-center w-auto">
+                        <h2 className="text-base/5 font-Semibold text text-center">Thank you for contacting me, <br />I'd get back to you <br /> as soon as possible!</h2>
                         <button 
                             onClick={() => setIsSubmitted(false)} 
-                            className="mt-4 px-4 py-2 bg-[#004F43] text-white rounded-md"
+                            className="mt-4 w-full py-2 bg-black text-white rounded-md"
                         >
                             Close
                         </button>

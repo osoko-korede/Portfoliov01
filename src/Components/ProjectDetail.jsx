@@ -11,7 +11,7 @@ const ProjectDetail = ({ title, description, image, year, externalLink, external
                 <div className='flex flex-col gap-4'>
                     <p className='text-gray-500 text-lg'>Services/Stack</p>
                     <hr />
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 flex-wrap'>
                         {techStack.map((tech, index) => (
                         <li key={index}>{tech}</li>
                         ))}

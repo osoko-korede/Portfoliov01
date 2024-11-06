@@ -63,7 +63,7 @@ const FeaturedProject = () => {
                     </div>
                 </div>
                 </NavLink>
-            <NavLink to={`/project/pledge`}>
+            <NavLink to={`/project/evolveai`}>
                 <div
                     className="w-full mt-9 relative overflow-hidden"
                 >

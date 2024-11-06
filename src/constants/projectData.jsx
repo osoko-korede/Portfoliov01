@@ -252,7 +252,7 @@ import fokes05 from '../assets/fokes/05.avif'
       id: 'burning-hearts',
       title: 'Burning Hearts',
       image: bh01,
-      description: 'Burning Heart is a contemporary christain fellowship.',
+      description: 'Burning Hearts is a contemporary christain fellowship.',
       techStack: ['Logo Design'],
       year: "2024",
       externalLink: "#",

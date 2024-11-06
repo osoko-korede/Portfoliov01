@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <div className='max-w-[90%] mx-auto py-16 pb-20 text-gray-950'>
         <div>
-            <h1 className='w-full text-3xl font-semibold p-12'>Let's get in touch</h1>
+            <h1 className='w-full text-3xl font-semibold'>Let's get in touch</h1>
         </div>
         <div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 px-12 gap-12 lg:grid-cols-4 lg:col-span-2 justify-between mt-6'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-12 lg:grid-cols-4 lg:col-span-2 justify-between mt-6'>
                 <div>
                     <h6 className=' font-semibold green uppercase'>Menu</h6>
                     <ul>

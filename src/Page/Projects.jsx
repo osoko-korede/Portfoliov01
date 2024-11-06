@@ -13,11 +13,11 @@ const Projects = () => {
     <div className="flex w-full justify-center pt-24">
       <div className="w-full">
         <TabGroup>
-          <TabList className="flex gap-2 md:gap-8 items-center justify-center">
+          <TabList className="flex gap-4 md:gap-8 items-center justify-center">
             {categories.map(({ name }) => (
               <Tab
                 key={name}
-                className="rounded-full py-1 px-3 text-sm/2 green md:font-semibold focus:outline-none data-[selected]:bg-gray-950 data-[selected]:text-white data-[hover]:bg-gray-900/10 data-[selected]:data-[hover]:bg-gray-900/20 data-[selected]:data-[hover]:green data-[focus]:outline-1 data-[focus]:outline-gray-300"
+                className="rounded-full py-1 px-3 sm:text-base font-medium green tracking-tight focus:outline-none data-[selected]:bg-gray-950 data-[selected]:text-white data-[hover]:bg-gray-900/10 data-[selected]:data-[hover]:bg-gray-900/20 data-[selected]:data-[hover]:green data-[focus]:outline-1 data-[focus]:outline-gray-300"
               >
                 {name}
               </Tab>

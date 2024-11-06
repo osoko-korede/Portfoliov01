@@ -200,9 +200,9 @@ export const categories = [
             id: "softswapp"
           },     
           {  
-            name: "Burning Heart",
+            name: "Burning Hearts",
             image: bh01,
-            alt: "Burning Heart",
+            alt: "Burning Hearts",
             stack: [
               "Logo Design",
             ],
