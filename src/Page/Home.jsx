@@ -1,5 +1,5 @@
-import FeaturedProject from "../components/FeaturedProject"
-import Hero from "../components/Hero"
+import FeaturedProject from "../Components/FeaturedProject"
+import Hero from "../Components/Hero"
 
 const Home = () => {
   return (
