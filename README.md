@@ -1,8 +1,77 @@
-# React + Vite
+# Osoko Korede portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a portfolio website. Built using React and Vite, it is designed to provide a fast and responsive user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Clean and Minimal Layout**: The design of this website is clean and minimal making the information standout.
+- **Portfolio Projects Display**: The website displays projects i've worked on.
+- **Smooth Page Navigation**: Includes automatic scrolling to the top on route change.
+- **Hover Interactions**: Displays "View Now" on image hover, following the mouse in a circular overlay.
+- **Responsive Design**: Ensures compatibility across different screen sizes and devices.
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Vite**: For fast builds and development server.
+- **Tailwind CSS**: For styling and responsiveness.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/osoko-korede/Portfoliov01.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Portfoliov01
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   The project should now be running on `http://localhost:5173`.
+
+## Deployment
+
+This project is set up to deploy on [Vercel](https://vercel.com/). To deploy:
+
+1. Push your code to your GitHub repository.
+2. Connect the repository to Vercel.
+3. Vercel will automatically build and deploy your application.
+
+## Project Structure
+
+```plaintext
+src/
+├── assets/        # Images, icons, and other assets
+├── Components/        # Reusable components
+├── constants/        # Data Folders
+├── page/             # Pages for different routes
+└── App.jsx            # Main application component
+```
+
+## Usage
+
+- **View Projects**: Navigate through different projects using the "See all works" link.
+- **Hover Interaction**: When hovering over project images, the "View Now" label appears in a circular overlay that follows the cursor.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+[MIT](LICENSE) License
